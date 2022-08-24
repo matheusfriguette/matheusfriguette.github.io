@@ -14,7 +14,7 @@ const getPages = (pageNumber) => {
       secondPrint.push(i);
     }
 
-    if (count === 4) {
+    if (count === 6) {
       currentToAdd === "firstPrint"
         ? (currentToAdd = "secondPrint")
         : (currentToAdd = "firstPrint");
